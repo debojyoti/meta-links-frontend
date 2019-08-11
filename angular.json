@@ -27,9 +27,15 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "src/assets/css/sb-admin-2.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/jquery.min.js",
+              "src/assets/js/popper.min.js",
+              "src/assets/js/bootstrap.min.js",
+              "src/assets/js/sb-admin-2.min.js"
+            ]
           },
           "configurations": {
             "production": {

@@ -1,0 +1,176 @@
+@import url(https://use.fontawesome.com/releases/v5.8.1/css/all.css);
+body {
+  padding: 0px;
+  margin: 0px; }
+
+* {
+  font-family: "PT Sans", sans-serif !important;
+  transition: 0.3s !important; }
+
+#body-inner-wrapper {
+  min-height: 100vh;
+  position: relative; }
+
+.hidden {
+  display: none !important; }
+
+#editor-wrapper {
+  min-height: 100vh;
+  background-color: #008be7; }
+  #editor-wrapper label {
+    color: white; }
+  @media screen and (max-width: 900px) {
+    #editor-wrapper {
+      min-height: unset;
+      padding-bottom: 40px; } }
+
+#meta-link-logo-wrapper {
+  color: white;
+  margin: 50px 0px 30px 10px; }
+
+#exampleFormControlFile1 {
+  width: 100%;
+  background-color: white; }
+
+#get-mask-link-btn {
+  margin-top: 20px;
+  width: 100%;
+  color: white;
+  border: none;
+  height: 40px;
+  background-color: #01d85a; }
+  @media screen and (max-width: 768px) {
+    #get-mask-link-btn {
+      font-size: 12px; } }
+
+#generate-meta-tag-btn {
+  margin-top: 20px;
+  width: 100%;
+  color: white;
+  background-color: #34495E;
+  border: none;
+  height: 40px; }
+  @media screen and (max-width: 768px) {
+    #generate-meta-tag-btn {
+      font-size: 12px; } }
+
+#preview-area {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+#preview-wrapper {
+  cursor: pointer;
+  width: 350px;
+  height: 450px;
+  border-radius: 12px;
+  box-shadow: 10px 10px 28px rgba(58, 58, 58, 0.541);
+  background-color: #e9e9e9; }
+  @media screen and (max-width: 768px) {
+    #preview-wrapper {
+      margin: 40px 10px; } }
+  @media screen and (max-width: 900px) {
+    #preview-wrapper {
+      margin: 40px 10px; } }
+
+#preview-wrapper:hover {
+  box-shadow: 5px 5px 8px rgba(58, 58, 58, 0.541); }
+
+#image-block {
+  border-radius: 12px;
+  background-image: url("../assets/pexels-photo-1236701.jpeg");
+  height: 350px;
+  background-position: center;
+  width: 100%; }
+
+#preview-title-block {
+  margin: 15px 10px 0px 25px;
+  font-weight: 600; }
+
+#preview-desc-block {
+  margin: -5px 10px 0px 25px; }
+
+#dismiss-btn {
+  position: absolute;
+  right: 40px;
+  top: 30px;
+  z-index: 10; }
+  @media screen and (max-width: 900px) {
+    #dismiss-btn {
+      color: white; } }
+
+#meta-viewer {
+  background-color: #214b75;
+  color: white;
+  width: 100%;
+  height: 400px;
+  font-size: 12px;
+  padding: 25px;
+  border: none;
+  border-radius: 5px;
+  resize: none;
+  cursor: text;
+  overflow-wrap: break-word;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  /* width */ }
+  #meta-viewer .html-tag-wrapper {
+    font-family: "Source Code Pro", monospace !important;
+    color: #00ffbf; }
+  #meta-viewer .html-tag-name {
+    font-family: "Source Code Pro", monospace !important;
+    font-weight: 600; }
+  #meta-viewer .html-tag-name-attr {
+    font-family: "Source Code Pro", monospace !important;
+    color: #ffc53e; }
+  #meta-viewer .html-tag-content-attr {
+    font-family: "Source Code Pro", monospace !important;
+    color: #00fff2; }
+  #meta-viewer .htmlComment {
+    font-family: "Source Code Pro", monospace !important;
+    color: #bdbdbd;
+    font-style: italic; }
+
+#meta-action-bar {
+  width: 100%;
+  height: 80px;
+  background-color: white;
+  padding-top: 20px; }
+
+#copy-to-clipboard-btn-wrapper button {
+  background-color: #24ec1a;
+  border: none;
+  padding: 8px 12px;
+  width: 100%;
+  color: white;
+  font-size: 14px; }
+
+#back-to-editor-btn-wrapper button {
+  background-color: white;
+  border: none;
+  padding: 8px 32px;
+  width: 100%;
+  font-size: 14px; }
+
+::-webkit-scrollbar {
+  width: 5px; }
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px; }
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #31ff98;
+  border-radius: 10px; }
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #31ff98; }
+
+  #exampleFormControlTextarea1 {
+    resize: none;
+}
